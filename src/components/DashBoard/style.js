@@ -3,7 +3,7 @@ export const ItemCardContainer = styled.div`
   border: 1px solid #edeff1;
   border-radius: 10px;
   font-size: 0.8rem;
-  display: 'flex';
+  display: flex;
   float: left;
   padding: 18px 40px;
   margin: 10px;

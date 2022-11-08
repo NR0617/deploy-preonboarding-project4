@@ -3,7 +3,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { useState } from 'react';
 import { addDays } from 'date-fns';
 import { useDispatch } from 'react-redux';
-import { getStartDate, getEndDate } from '../reducer/Slice/dataSlice';
+import { getStartDate, getEndDate } from '../reducer/Slice/dateSlice';
 
 const DatePickerComponent = () => {
   const dispatch = useDispatch();
@@ -29,7 +29,7 @@ const DatePickerComponent = () => {
           customInput={<CustomInput />}
         />
       </div>
-      ~
+      <p>~</p>
       <div>
         <DatePicker
           selected={endDate}

@@ -10,7 +10,6 @@ import * as Styled from './style';
 const DashBoard = () => {
   const { startdate, enddate } = useSelector(state => state.dateReducer);
   const [trendAvgList, setTrendAvgeList] = useState();
-  //const [key, setKey] = useState();
   useEffect(() => {
     const before = getBeforeDate(startdate).then(res => getAverage(res));
     const after = getAfterDate(startdate, enddate) //
@@ -18,8 +17,6 @@ const DashBoard = () => {
         const result = getAverage(res);
         if (result.length !== 0 && !!result) {
           setTrendAvgeList(result);
-          // let arr = Object.keys(result);
-          // setKey(arr);
         }
         return result;
       });

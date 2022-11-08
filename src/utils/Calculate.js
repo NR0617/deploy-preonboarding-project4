@@ -35,6 +35,10 @@ export const getAverage = arr => {
   let impArr = arr.map(el => el.imp);
   let convValueArr = arr.map(el => el.convValue);
 
+  const option = {
+    maximumFractionDigits: 4,
+  };
+
   const roasSum = roasArr.reduce(function add(sum, currValue) {
     return sum + currValue;
   }, 0);
@@ -43,12 +47,14 @@ export const getAverage = arr => {
   const costSum = costArr.reduce(function add(sum, currValue) {
     return sum + currValue;
   }, 0);
-  const cost = Math.round(costSum / costArr.length);
+  const costAver = Math.round(costSum / costArr.length / 1000);
+
+  const cost = costAver.toLocaleString('ko-KR', option);
 
   const clickSum = clickArr.reduce(function add(sum, currValue) {
     return sum + currValue;
   }, 0);
-  const click = Math.round(clickSum / clickArr.length);
+  const click = Math.round(clickSum / clickArr.length / 100);
 
   const convSum = convArr.reduce(function add(sum, currValue) {
     return sum + currValue;
@@ -58,12 +64,13 @@ export const getAverage = arr => {
   const impSum = impArr.reduce(function add(sum, currValue) {
     return sum + currValue;
   }, 0);
-  const imp = Math.round(impSum / impArr.length);
+  const impAver = Math.round(impSum / impArr.length / 1000);
+  const imp = impAver.toLocaleString('ko-KR', option);
 
   const convValueSum = convValueArr.reduce(function add(sum, currValue) {
     return sum + currValue;
   }, 0);
-  const convValue = Math.round(convValueSum / convValueArr.length);
-
-  return [{ roas }, { cost }, { click }, { conv }, { imp }, { convValue }];
+  const convValueAver = Math.round(convValueSum / convValueArr.length / 10000);
+  const convValue = convValueAver / 100;
+  return [{ roas }, { cost }, { imp }, { click }, { conv }, { convValue }];
 };
