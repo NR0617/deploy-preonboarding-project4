@@ -3,12 +3,12 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { useState } from 'react';
 import { addDays } from 'date-fns';
 import { useDispatch } from 'react-redux';
-import { getStartDate, getEndDate } from '../reducer/Slice/dateSlice';
+import { getStartDate, getEndDate } from '../../reducer/Slice/dateSlice';
 
 const DatePickerComponent = () => {
   const dispatch = useDispatch();
-  const [startDate, setStartDate] = useState(new Date('2022-02-01'));
-  const [endDate, setEndDate] = useState(new Date('2022-02-03'));
+  const [startDate, setStartDate] = useState(new Date('2022-04-17'));
+  const [endDate, setEndDate] = useState(new Date('2022-04-19'));
   const CustomInput = ({ value, onClick }) => (
     <button className="example-custom-input" onClick={onClick}>
       {value}

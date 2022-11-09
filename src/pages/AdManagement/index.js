@@ -11,7 +11,6 @@ const Admanagement = () => {
   useEffect(() => {
     AdListData()
       .then(res => {
-        console.log(res.ads);
         return SortAdList(res.ads, condition);
       })
       .then(res => dispatch(setTestList(res)));

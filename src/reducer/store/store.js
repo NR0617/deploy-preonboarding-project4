@@ -5,4 +5,4 @@ import testReducer from '../Slice/AdSearchSlicer';
 export const store = configureStore({
   reducer: { dateReducer, testData: testReducer },
 });
-console.log(store.getState());
+// console.log(store.getState());

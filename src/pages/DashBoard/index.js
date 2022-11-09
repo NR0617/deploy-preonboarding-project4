@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ChartComponent from '../../components/DashBoard/ChartComponent';
 import ItemCards from '../../components/DashBoard/ItemCards';
-import DatePickerComponent from '../../utils/DatePicker';
+import DatePickerComponent from '../../components/DatePicker/DatePicker';
 import BoardBar from '../../components/Headers/BoardBar/BoardBar';
 import { useSelector } from 'react-redux';
 import { getBeforeDate, getAfterDate, getAverage } from '../../utils/Calculate';
