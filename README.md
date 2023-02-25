@@ -3,8 +3,7 @@
 
 ## [페이지 바로가기](https://phenomenal-cendol-ac68ea.netlify.app/)
 
-![asd](https://user-images.githubusercontent.com/94212747/221352568-857c453d-f920-45e6-8281-93496a69632e.jpg)
-![asda](https://user-images.githubusercontent.com/94212747/221352572-4996af21-c144-4ed0-9511-75ddcd960279.jpg)
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/94212747/221352944-f475883e-53cc-4916-80f8-8ffbbf99502c.gif)
 
 
 ## 📝 목차
