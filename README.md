@@ -39,17 +39,11 @@ deploy-preonboarding-project4 % npm start
 ┣ 📂 public
 ┣ 📂 src
 ┃   ┣ 📂 apis             # axios 호출 관련
-┃   ┣ 📂 assets           # 파일들 (이미지 파일 등)
+┃   ┣ 📂 asset            # 파일들 (이미지 파일 등)
 ┃   ┣ 📂 components       # component 모음
-┃   ┣   ┣ 📂 blocks         # page보단 작고 button 같은 component보단 큰 애들
-┃   ┣   ┗ 📂 common         # button, input, select box와 같은 component
-┃   ┣ 📂 hooks            # custom hook
-┃   ┣ 📂 pages            # 페이지 단위로 구분
-┃   ┣   ┣ 📂 Adsmanage      # 광고관리 페이지
-┃   ┣   ┣ 📂 Main           # 대시보드 페이지
-┃   ┣   ┗ 📂 Notfound       # Notfound 페이지
-┃   ┣ 📂 redux            # redux/toolkit, store 디렉토리
-┃   ┣   ┗ 📂 reducer      # reducer/slice 디렉토리
+┃   ┣ 📂 costants         # constant 모음
+┃   ┣ 📂 pages            # 페이지 단위로 구분     
+┃   ┣ 📂 reducer          # slice 디렉토리
 ┃   ┣ 📂 styles           # global style
 ┃   ┗ 📂 utils            # 재사용성 높은 함수 모음
 ┗ 📄 README.md
