@@ -3,6 +3,10 @@
 
 ## [페이지 바로가기](https://phenomenal-cendol-ac68ea.netlify.app/)
 
+![asd](https://user-images.githubusercontent.com/94212747/221352568-857c453d-f920-45e6-8281-93496a69632e.jpg)
+![asda](https://user-images.githubusercontent.com/94212747/221352572-4996af21-c144-4ed0-9511-75ddcd960279.jpg)
+
+
 ## 📝 목차
 
 - [📰 프로젝트 설명](#-프로젝트-설명)
