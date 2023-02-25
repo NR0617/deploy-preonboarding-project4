@@ -144,6 +144,8 @@ deploy-preonboarding-project4 % npm start
 - husky
 - prettier
 
+### 차트 Lib
 
+- Recharts
 </div>
 </details>
