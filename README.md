@@ -1,7 +1,7 @@
 
 ## **✨ 배포링크**
 
-## [데모 페이지 바로가기](https://pre-onboarding-7th-2-2-9.vercel.app)
+## [페이지 바로가기](https://phenomenal-cendol-ac68ea.netlify.app/)
 
 ## 📝 목차
 
