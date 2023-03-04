@@ -55,6 +55,8 @@ deploy-preonboarding-project4 % npm start
 
 
 ## 🔒 팀 규칙
+### [팀 리포지토리 바로가기](https://github.com/Wanted-07-team-9/pre-onboarding-7th-2-2-9.git)
+
 
 <details>
 <summary>커밋 규칙</summary>
